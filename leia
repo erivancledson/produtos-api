@@ -1,0 +1,12 @@
+link do swagger : http://localhost:9000/swagger-ui.html
+
+Cadastrar, deletar e atualizar precisa de autorização.
+
+só ir em autenticacao-controller > informar o email e senha cadastrado ele vai gerar
+o token.
+
+exemplo no deletar: clica em try it out informa o tipo que é Bearer espaço e o token como o exemplo a baixo:
+
+Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgRXJpdmFuIENsZWRzb24iLCJzdWIiOiIxIiwiaWF0IjoxNTYzOTkxNTQ0LCJleHAiOjE1NjM5OTMzNDR9.0mcLs94_L4lBlnPKN-vcABxGJxKvx-uVQpo78bOia6s
+
+depois disso so passar o valores e clicar em execute
